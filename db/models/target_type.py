@@ -12,5 +12,5 @@ class TargetType(Base):
 
     targets = relationship(
         "targets",
-        back_populates="targettypes",
+        back_populates="type",
     )

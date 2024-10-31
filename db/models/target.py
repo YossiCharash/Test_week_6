@@ -18,6 +18,11 @@ class Target(Base):
 
     missions = relationship(
         "missions",
+        back_populates="target",
+    )
+
+    city = relationship(
+        "cities",
         back_populates="targets",
     )
 

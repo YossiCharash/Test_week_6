@@ -12,5 +12,5 @@ class Country(Base):
 
     cities = relationship(
         "cities",
-        backref="countrys",
+        backref="country",
     )

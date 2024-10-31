@@ -21,7 +21,6 @@ class City(Base):
     )
 
     country = relationship(
-        'countrys',
         back_populates='cities'
     )
 
