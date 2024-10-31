@@ -10,7 +10,7 @@ class Country(Base):
     country_id = Column(Integer, primary_key=True)
     name = Column(String)
 
-    cities = relationship(
-        "cities",
-        backref="country",
-    )
+    # cities = relationship(
+    #     "cities",
+    #     backref="country",
+    # )

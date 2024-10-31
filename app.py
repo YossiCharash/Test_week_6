@@ -1,4 +1,3 @@
-# pip install -r requirements.txt
 from flask import Flask
 from flask_graphql import GraphQLView
 from gql.query import schema
